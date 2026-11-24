@@ -1,4 +1,4 @@
-# 📏 Object Distance Estimation Using Neural Networks
+# Object Distance Estimation Using Neural Networks
 
 ![Course](https://img.shields.io/badge/Course-CSCI%206366%20Neural%20Networks%20%26%20Deep%20Learning-0055A4?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -11,7 +11,7 @@
 
 ---
 
-## 📖 Project Summary
+## Project Summary
 This project combines neural object detection with monocular depth estimation to identify objects in a scene and estimate their metric distance from the camera. Using pretrained **YOLO11x** for object localization and classification alongside **MiDaS** (`DPT_Large` and `MiDaS_small`) for relative inverse-depth prediction, we evaluate how neural depth estimation compares against classical stereo geometry (OpenCV `StereoSGBM` + WLS filtering) and a known-object-size perspective baseline across indoor and outdoor environments.
 
 ### Core Objectives
@@ -21,7 +21,7 @@ This project combines neural object detection with monocular depth estimation to
 
 ---
 
-## 🏗️ System Architecture & Pipeline
+## System Architecture & Pipeline
 
 ```text
 Stereo / RGB Input ──┬──► [OpenCV StereoSGBM + WLS] ───► Metric Disparity (Z = f·B / d)
@@ -37,7 +37,7 @@ Stereo / RGB Input ──┬──► [OpenCV StereoSGBM + WLS] ───► Met
 
 ---
 
-## 🛠️ Tech Stack & Tools
+## Tech Stack & Tools
 
 | Component | Tool / Model | Role in Pipeline |
 | :--- | :--- | :--- |
@@ -49,7 +49,7 @@ Stereo / RGB Input ──┬──► [OpenCV StereoSGBM + WLS] ───► Met
 
 ---
 
-## 👥 Team Members & Responsibilities
+## Team Members & Responsibilities
 
 | Team Member | GitHub Handle | Primary Role & Contribution |
 | :--- | :--- | :--- |
@@ -60,7 +60,7 @@ Stereo / RGB Input ──┬──► [OpenCV StereoSGBM + WLS] ───► Met
 
 ---
 
-## 📂 Datasets
+## Datasets
 
 * **KITTI 2015 Stereo / Scene Flow Dataset**
   * **Usage:** Calibrated outdoor road scenes (`road1`, `road2`) with known camera intrinsics ($f = 721.54\text{ px}$) and stereo baseline ($B = 0.537\text{ m}$), plus a non-stereo scene-flow pair (`000020`) to test temporal mismatch failure modes.
@@ -71,7 +71,7 @@ Stereo / RGB Input ──┬──► [OpenCV StereoSGBM + WLS] ───► Met
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 ├── data/                           # Sample stereo pairs & calibration metadata
@@ -84,7 +84,7 @@ Stereo / RGB Input ──┬──► [OpenCV StereoSGBM + WLS] ───► Met
 
 ---
 
-## ⚙️ Quickstart & Setup
+## Quickstart & Setup
 
 1. **Clone the repository:**
    ```bash
