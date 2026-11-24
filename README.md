@@ -88,8 +88,8 @@ Stereo / RGB Input ──┬──► [OpenCV StereoSGBM + WLS] ───► Met
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/](https://github.com/)nnamanx/Object-Distance-Estimation-6366.git
-   cd Distance-Estimation-6366
+    git clone https://github.com/nnamanx/Object-Distance-Estimation-6366.git
+    cd Object-Distance-Estimation-6366
    ```
 
 2. **Install dependencies:**
