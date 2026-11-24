@@ -56,7 +56,7 @@ Stereo / RGB Input ──┬──► [OpenCV StereoSGBM + WLS] ───► Met
 | **Ilaha Behbudova** | [@ibehbudova7711](https://github.com/ibehbudova7711) | **Data & Stereo Geometry:** Verify image pairing & camera calibration, implement `StereoSGBM`, and handle invalid disparities. |
 | **Nijat Jafarov** | [@nijatjafarov](https://github.com/nijatjafarov) | **Neural Depth (MiDaS):** Integrate `DPT_Large` & `MiDaS_small`, analyze DPT architecture, and benchmark depth quality vs. latency. |
 | **Laman Khudadatzada** | [@nnamanx](https://github.com/nnamanx) | **Detection & Distance:** Integrate `YOLO11x`, tune confidence/IoU thresholds, and implement box-level distance aggregation. |
-| **Aysu Sarkarova** | `@username` | **Evaluation & Visualization:** Design cross-method error metrics, measure valid-depth coverage, and build comparison plots. |
+| **Aysu Sarkarova** |  [@AysuSerkerova0625](https://github.com/AysuSerkerova0625) | **Evaluation & Visualization:** Design cross-method error metrics, measure valid-depth coverage, and build comparison plots. |
 
 ---
 
